@@ -5,7 +5,7 @@
   position: relative;
   width: 120px;
   height: 80px;
-  background: #003F5C;
+  background: #3EBEFF;
   border-radius: 10px;
   color: #fff;
 }
@@ -18,7 +18,7 @@
   width: 0;
   height: 0;
   border: 13px solid transparent;
-  border-top-color: #003F5C;
+  border-top-color: #3EBEFF;
   border-bottom: 0;
   margin-left: -13px;
   margin-bottom: -12px;
@@ -29,7 +29,7 @@
   position: relative;
   width: 120px;
   height: 80px;
-  background: #D5F1FE;
+  background: #EDFCFF;
   border-radius: 10px;
   /* color: #fff; */
 }

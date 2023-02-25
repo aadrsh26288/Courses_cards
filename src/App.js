@@ -79,7 +79,7 @@ const App = () => {
 
   return (
     <div>
-      <div className="flex justify-center mt-5  mb-14 gap-8">
+      <div className="flex  justify-center mt-5  mb-14 gap-8">
         <button
           onClick={() => {
             handleSelect("btn1");
@@ -99,13 +99,13 @@ const App = () => {
           <br></br> <span className="text-md font-medium">(age 10-15 )</span>{" "}
         </button>
       </div>
-      <div className="flex justify-center gap-5 max-w-[80%] mx-auto">
+      <div className="flex sm:flex-row flex-col my-5 justify-center gap-5 max-w-[80%] mx-auto">
         {d.map((course, index) => (
           <div
             key={index}
             className="duration-300  transition ease-in rounded-[4px] hover:-translate-y-[30px] w-[328px] relative bg-[#F8F8F8] shadow-lg m-0 p-0"
           >
-            <div className="bg-[#D5F1FE]  group hover:bg-[#003F5C] ">
+            <div className="bg-[#D5F1FE]  group hover:bg-[#3EBEFF] ">
               <div className="relative  float-right  ">
                 <svg
                   width="70"
@@ -143,7 +143,7 @@ const App = () => {
                 </p>
               </div>
               <div className="p-3">
-                <h2 className="text-[20px] font-bold group-hover:text-white poppins text-[#006292]">
+                <h2 className="text-[20px] font-bold group-hover:text-white poppins text-[#3EBEFF] ">
                   {course.display_name}
                 </h2>
                 <div className="flex text-[19px] items-center mt-1 text-[#F9B215]">
@@ -209,7 +209,7 @@ const App = () => {
                 <div className="flex items-center gap-2">
                   <WiMoonAltWaxingCrescent5 className="text-xl text-[#F9B215]" />
                   <p className="text-[14px] lato font-semibold text-[#333333]">
-                    8 Activities
+                    {course.num_classes} Activities
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
@@ -243,7 +243,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      //{" "}
+  
     </div>
     // </div>
   );
