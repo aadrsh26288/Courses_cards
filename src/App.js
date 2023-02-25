@@ -139,7 +139,7 @@ const App = () => {
                   ></path>
                 </svg>
                 <p className="text-[16px] font-bold lato absolute top-1 left-2 group-hover:text-black z-10 pl-3">
-                  27 Sessions
+                  18 Sessions
                 </p>
               </div>
               <div className="p-3">
