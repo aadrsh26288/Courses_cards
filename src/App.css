@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.bubble {
+  position: relative;
+  width: 120px;
+  height: 80px;
+  background: #003F5C;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.bubble::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 13px solid transparent;
+  border-top-color: #003F5C;
+  border-bottom: 0;
+  margin-left: -13px;
+  margin-bottom: -12px;
+  /* outline: ; */
+}
+
+.b2 {
+  position: relative;
+  width: 120px;
+  height: 80px;
+  background: #D5F1FE;
+  border-radius: 10px;
+  /* color: #fff; */
+}
+
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btnbg {
+  background: rgb(243, 112, 91);
+  background: linear-gradient(90deg, rgba(243, 112, 91, 1) 0%, rgba(252, 180, 68, 1) 100%);
+}
